@@ -547,17 +547,16 @@ const Home = (props: HomeProps) => {
 
     return (
         <main>
-            <MainContainer>
+             <MainContainer>
                 <WalletContainer>
                     <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
-                                                                                                          src="logo.png"/></a></Logo>
+                                                                                                          src="logo sg.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li><a href="https://discord.gg/zd2jkYjb " target="_blank" rel="noopener noreferrer"> Discord</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 2</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                        <li><a href=" https://twitter.com/squareguysNFT?s=20&t=tpKG6RNJWqj21a75uAzUkw " target="_blank" rel="noopener noreferrer"> Twitter</a>
+                        </li>
+                        
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -565,16 +564,16 @@ const Home = (props: HomeProps) => {
                             <ConnectButton>Connect Wallet</ConnectButton>}
                     </Wallet>
                 </WalletContainer>
-                <ShimmerTitle>MINT IS LIVE !</ShimmerTitle>
+                <ShimmerTitle>SQUARE GUYS!</ShimmerTitle>
                 <br/>
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>LEGENDARY GUYS</h2>
                             <br/>
                             <div><Price
-                                label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
-                                src="cool-cats.gif"
+                                label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (`${price} ${priceLabel}`)}/><Image
+                                src="sg gif.gif"
                                 alt="NFT To Mint"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && isBurnToken &&
@@ -658,31 +657,25 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                        </Des>
-                        <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                        </Des>
-                        <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                        <LogoAligner><img src="logo sg.png" alt=""></img><GoldTitle>History of Square Guys</GoldTitle></LogoAligner>
+
+                            <p>Imagine a project where customers decide everything.
+This is a unique project!Our team was regular
+NFT buyers.We spent all day looking for the 
+perfect project to buy, but never found it. Our team couldn't 
+find an analogy to our project. We figured out what to do!
+We need to create a project that is 100% community driven 
+(by voting in our discord) You can own our collection! By buying our NFT
+you are buying the right to vote! </p>
+                            <p>Let's say the community 
+is interested in something. The task of our team is to vote
+and fulfill the wishes of our holders. You decide everything! 
+This way, the owners can decide what the future of the project
+will be! We are your employees, and you decide what to do.
+That's not all, the owners will have their own Collection!
+Choose everything! Also, the profits from your collection will go to your wallet!</p>
+                            <p>Friendly and cohesive team always succeeds!!</p>
+                        
                         </Des>
                     </DesContainer>
                 </MintContainer>
